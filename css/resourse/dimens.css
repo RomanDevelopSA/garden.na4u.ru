@@ -1,0 +1,11 @@
+:root{
+    --dm-16: 16px;
+    --dm-8: 8px;
+    --radius-sm: 5px;
+
+    --dm-menu-item: 10px;
+
+    --font--big: 16px;
+    --font--std: 14px;
+    --font--small: 12px;
+}

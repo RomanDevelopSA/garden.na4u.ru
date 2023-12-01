@@ -1,0 +1,40 @@
+main{
+    max-width: 1680px;
+    margin-top: 178px;
+    padding: 0 16px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h3.popular_items{
+    margin-bottom: var(--dm-16);
+    font-size: var(--font--big);
+    font-weight: bold;
+}
+
+/*width >=768px*/
+@media screen and (min-width: 768px){
+    main{
+        margin-top: 137px;
+    }
+
+}
+
+/*width >=1024px*/
+@media screen and (min-width: 1024px){
+    main{
+        margin-top: 160px;
+        padding: 0 32px;
+    }
+
+}
+
+/*width >=1680px*/
+@media screen and (min-width: 1680px){
+    main{
+        margin-left: auto;
+        margin-right: auto;
+        /*border: #FFB800 2px solid;*/
+    }
+}

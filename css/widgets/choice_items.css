@@ -1,0 +1,29 @@
+.choice_items{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: 14px;
+}
+
+.choice_items:last-of-type{
+    margin-bottom: var(--dm-16);
+}
+
+.choice_items li{
+    padding: 4px;
+    border: 1px solid var(--color-header-top);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice_items>li:hover{
+    background-color: var(--color-header-top);
+}
+
+.choice_items_delimiter{
+    height: 2px;
+    background-color: var(--color-header-top);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
