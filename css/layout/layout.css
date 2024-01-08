@@ -1,0 +1,15 @@
+@import "main.css";
+
+@import "footer/footer_mobile.css";
+
+@import "header/header_mobile.css";
+@import "header/header_desktop.css" screen and (min-width: 1024px);
+
+@import "main_page/main_page.css";
+
+@import "menu/menu_desktop.css";
+@import "menu/menu_mobile.css";
+
+@import "nav_bottom/nav_bottom.css";
+
+@import "search/search.css";

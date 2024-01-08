@@ -1,0 +1,34 @@
+h3.popular_items{
+    margin-bottom: var(--dm-16);
+    font-size: var(--font--big);
+    font-weight: bold;
+}
+
+.gallery{
+    position: relative;
+}
+
+/*START styles for all gallery*/
+.gallery_cards_appearance{
+    margin: 4px;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 -1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-wrapper{
+    margin-bottom: 16px;
+}
+
+.gallery_category,
+.gallery_product,
+.gallery_products{
+    margin-bottom: var(--dm-16);
+}
+
+.gallery-category-item-title,
+.gallery-product-item-title{
+    font-weight: bold;
+}
+/*END styles for all gallery*/

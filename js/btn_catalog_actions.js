@@ -29,7 +29,7 @@ function removeClass () {
 document.body.addEventListener("resize", removeClass);
 document.body.addEventListener("click", event => {
     
-    if(event.target.className == "btn_catalog") {
+    if(event.target.className === "btn_catalog") {
         toggleClass();
         return false;
     }

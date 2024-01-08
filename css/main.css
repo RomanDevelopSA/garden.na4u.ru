@@ -1,28 +1,20 @@
 @import "global/normalize.css";
 @import "global/reset.css";
 
+@import "js-style/js-catalog.css";
+@import "js-style/js-search.css";
+
+@import "layout/layout.css";
 
 @import "resourse/dimens.css";
 @import "resourse/colors.css";
 
 @import "widgets/gallery/gallery_mobile.css";
-@import "widgets/choice_items.css";
+@import "widgets/choice_popular_items.css";
+@import "widgets/new_in_catalog.css";
 
-@import "layout/menu/menu_desktop.css";
-@import "layout/search/search.css";
 
-@import "layout/header/header_mobile.css";
-@import "layout/header/header_mq.css";
-@import "layout/header/header_desktop.css" screen and (min-width: 1024px);
 
-@import "layout/main/main_mobile.css";
-
-@import "layout/footer/footer_mobile.css";
-
-@import "layout/nav_bottom/nav_bottom.css";
-
-@import "js-style/js-catalog.css";
-@import "js-style/js-search.css";
 
 
 

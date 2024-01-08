@@ -25,7 +25,7 @@ body {
 }
 
 /**
- * Render the `main` element consistently in IE.
+ * Render the `main_page` element consistently in IE.
  */
 
 main {
@@ -42,7 +42,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* Grouping main
+/* Grouping main_page
    ========================================================================== */
 
 /**
@@ -86,8 +86,6 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
-}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
@@ -139,7 +137,7 @@ sup {
   top: -0.5em;
 }
 
-/* Embedded main
+/* Embedded main_page
    ========================================================================== */
 
 /**
@@ -347,4 +345,5 @@ template {
 
 [hidden] {
   display: none;
-}
+}}
+

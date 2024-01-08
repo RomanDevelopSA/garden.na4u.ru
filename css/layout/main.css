@@ -7,12 +7,6 @@ main{
     position: relative;
 }
 
-h3.popular_items{
-    margin-bottom: var(--dm-16);
-    font-size: var(--font--big);
-    font-weight: bold;
-}
-
 /*width >=768px*/
 @media screen and (min-width: 768px){
     main{
