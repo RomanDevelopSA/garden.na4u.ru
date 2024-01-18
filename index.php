@@ -60,10 +60,7 @@
 
     <h3 class="popular_items">Популярные семена</h3>
     <?php
-    for ($i = 0; $i < 2; $i++) {
         require "temp/main_page/gallery_popular_product/section_popular_product.php";
-    }
-
     ?>
 
 
@@ -82,6 +79,7 @@ require "temp/main_page/nav_bottom.html";
 <script src="js/libs/swiper_settings.js"></script>
 <script src="js/btn_catalog_actions.js"></script>
 <script src="js/btn_search_mobile.js"></script>
+<script src="js/choice_popular_scroll.js"></script>
 
 </body>
 </html>

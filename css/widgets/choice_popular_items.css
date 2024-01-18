@@ -6,11 +6,12 @@
     font-size: 14px;
 }
 
-.choice_items:last-of-type{
+.choice_items:nth-child(even){
     margin-bottom: var(--dm-16);
 }
 
-.choice_items li{
+.choice_items li,/*убрать в дальнейшем*/
+.choice_items a{
     padding: 4px;
     border: 1px solid var(--color-header-top);
     border-radius: 5px;
